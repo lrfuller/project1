@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Employee</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+</head>
+<body>
+	<div class="container col-12 text-center">
+		
+		<div class="row">
+			<div class="col-4 jumbotron"><br></div>
+			<div class="col-4 jumbotron text-center"><h1>Employee Page</h1></div>	
+			<div class="col-4 jumbotron"><br></div>
+		</div>
+		
+		<br><br><br>
+		<div class="row">
+			<div class="col-4">
+				
+				<form action="/project1/employeesubmit" method="post">
+					<h3>Submit a Reimbursement Request:</h3>
+					
+						<input type="text" name="setDate"
+							placeholder="Date: YYYY-MM-DD"> <input type="text"
+							name="setRefNum" placeholder="Reference Number: 22+"> <input
+							type="text" name="amountReq" placeholder="Amount: whole numbers">
+						<input type="submit" value="Submit">
+					
+				</form>
+				<br> <br>
+
+
+				
+					
+				
+				<br> <br>
+
+			</div>
+			<div class="col-4">
+
+				<form action="/project1/employeereimbursement" method="post">
+					<h3>View Reimbursement Requests</h3>
+					<select name="type">
+						<option value="Pending">Pending</option>
+						<option value="Resolved">Resolved</option>
+					</select> <input type="submit" value="Set">
+				</form>
+				<form action="/project1/employeereimbursement" method="get">
+					
+						<input type="submit" value="View">
+					
+				</form>
+				<br> <br>
+			</div>
+
+			<div class="col-4">
+				<form action="/project1/updateinfo" method="post">
+					<h3>Update Current Information:</h3>
+					
+						<input placeholder="new full name" type="text"
+							name="updateFullName">
+						<input placeholder="new password" type="text"
+							name="updatePass">
+						<input placeholder="new username" type="text"
+							name="updateUserName">
+						<input type="submit" value="Set">
+					
+				</form>
+				<!-- <form  action="/project1/updateinfo" method="get">
+				<input type="submit" value="view">migth not need...
+				</form>-->
+				<br> <br>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-4"><br></div>
+				<div class="col-4"><a href="/project1/viewuser.html">View</a> your
+					information</li></div>
+				<div class="col-4"><br></div>
+			</div>
+			<br><br><br><br>
+
+				<form action="/project1/logout" method="post">
+					<input type="submit" value="logout">
+				</form>
+				<br> <br>
+			
+			
+		</div>
+	</div>
+
+</body>
+</html>

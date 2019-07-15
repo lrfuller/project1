@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>View pending</title>
+</head>
+<body>
+<h1>Pending Employee</h1>
+
+<form action="/project1/employeereimbursement" method="post">
+		<ul>
+			<li>view reimbursement requests</li>
+			<select name="type">
+				<option value="Pending">Pending</option>
+				<option value="Resolved">Resolved</option>
+			</select>
+			<input type="submit" value="Set">
+
+		</ul>
+
+	</form>
+	<form action="/project1/employeereimbursement" method="get">
+		<ul>
+			<li><input type="submit" value="View"></li>
+		</ul>
+	</form>
+	<br>
+	<br>
+	<table>
+		<!-- <thead></thead> -->
+		<tbody id = "tbody">
+			
+		</tbody>
+	</table>
+	
+</body>
+<script src="ViewEmpPending.js"></script>
+</html>

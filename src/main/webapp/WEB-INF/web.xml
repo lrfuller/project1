@@ -1,0 +1,84 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<servlet-class>com.revature.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeReimbursement</servlet-name>
+  	<servlet-class>com.revature.EmployeeReimbursement</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>com.revature.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ManagerReimbursement</servlet-name>
+  	<servlet-class>com.revature.ManagerReimbursement</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ManagerSingleEmp</servlet-name>
+  	<servlet-class>com.revature.ManagerSingleEmp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeList</servlet-name>
+  	<servlet-class>com.revature.EmployeeList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateEmpInfo</servlet-name>
+  	<servlet-class>com.revature.UpdateEmpInfo</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeSubmitRequest</servlet-name>
+  	<servlet-class>com.revature.EmployeeSubmitRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ManagerApproveDenyRequest</servlet-name>
+  	<servlet-class>com.revature.ManagerApproveDenyRequest</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeReimbursement</servlet-name>
+  	<url-pattern>/employeereimbursement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ManagerReimbursement</servlet-name>
+  	<url-pattern>/managerview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ManagerSingleEmp</servlet-name>
+  	<url-pattern>/managersingleview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeList</servlet-name>
+  	<url-pattern>/employeelist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateEmpInfo</servlet-name>
+  	<url-pattern>/updateinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeSubmitRequest</servlet-name>
+  	<url-pattern>/employeesubmit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ManagerApproveDenyRequest</servlet-name>
+  	<url-pattern>/updatestatus</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
