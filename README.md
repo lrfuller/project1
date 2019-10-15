@@ -1,2 +1,3 @@
 # project1
- project 1 during training at Revature
+ 
+Open *Project 1 - Expense Reimbursement System.pdf* for project guidelines
