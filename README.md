@@ -1,8 +1,8 @@
-#Info
+# Info
 Open **Project 1 - Expense Reimbursement System.pdf** for project guidelines
 
 #Technologies Used
-###Front-end: 
+### Front-end: 
 HTML, CSS, JavaScript
-###Back-end:
+### Back-end:
 Java
